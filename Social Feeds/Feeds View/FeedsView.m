@@ -146,7 +146,6 @@
     [self.searchBar setKeyboardType:UIKeyboardTypeDefault];
     [self.searchBar setPlaceholder:@"Search..."];
     [self.searchBar setShowsSearchResultsButton:NO];
-//    self.searchBar.showsCancelButton = YES;
     [self.searchBar sizeToFit];
     
     self.strongSearchDisplayController = [[UISearchDisplayController alloc] initWithSearchBar:self.searchBar contentsController:self];

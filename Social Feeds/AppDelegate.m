@@ -35,9 +35,6 @@
     self.window.rootViewController = contentViewController;
     [self.window makeKeyAndVisible];
 
-    
-    //testing github on slack
-    
     return YES;
 }
 							
